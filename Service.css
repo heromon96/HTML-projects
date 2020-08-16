@@ -1,0 +1,47 @@
+body{
+    background-image: url(hunger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.m{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color:white;
+    
+    border-color: red;
+    border-width: 5px;
+	border-bottom-width: 10px;
+	border-style:double;
+    
+    font-family:  Cursive;
+    
+    padding: 20px;
+    opacity: .8;
+}
+.m:hover{
+    opacity: 1;
+}
+.mother{
+   /* height: 100%; */
+    width: 40%;
+    transform: translate(20%,50%);
+    border-style: ridge;
+    border-color:red;
+    border-width: 2px;
+    text-align: center;
+    color: maroon;
+
+    
+
+
+    padding: 20px;
+}
+.motherimage{
+    background-image: url(mother2.jpg);
+    background-repeat: no-repeat;
+    background-size: 596mm;
+   
+    opacity: .8;
+}

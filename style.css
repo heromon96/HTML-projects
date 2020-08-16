@@ -1,0 +1,118 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("markus-winkler-MnrqPQuQqQk-unsplash.jpg");
+	color: black;
+	background-attachment: fixed;
+}
+.menu-bar{
+background-color:#E7371B;
+height: 90px;
+
+text-align:center;
+margin-top: 0;
+}
+.menu-bar,ul{
+float: left;
+text-align: center;
+list-style:none;
+color:black;
+padding-bottom: 10px;
+}
+.menu-bar ul li{
+background-color:#E7371B;
+opacity: .8;
+float: left;
+width:120px;
+margin:15px;
+padding:15px;
+/*line-height: 40px;*/
+text-align: center;
+font-size: 19px;
+margin-right: 2px; 
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+ul li a:hover{
+	background-color: cyan;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+ul li:hover ul li a:hover{
+	background-color: cyan;
+}
+.clear{
+	float: right;
+	margin-top:20px; 
+	padding-top:20px; 
+	/*clear: left;*/
+	background-color: #333;
+	color:white;
+
+	
+
+	width: 40%;
+	background-color: #333;
+	color: #fff;
+	padding: 15px;
+	border-color: red;
+	box-sizing: border-box;
+	border-width: 5px;
+
+	border-style: groove;
+	opacity: .8;
+
+	/*padding: 20px*/
+}
+
+.clear:hover{
+	opacity: 1;
+}
+.mar{
+	clear: right;
+	clear: both;
+	padding-top: 48px; 
+	position: absolute;
+	top: 465px;
+	font-size: 160px;
+	font-style: italic;
+	font-family: algerian;
+	transform: translate(-40%,0%);
+}
+.mar2{
+	
+
+	position: absolute;
+	top:400px; 
+	transform: translate(-100%); 
+	
+}
+.fix{
+	/*float: left;*/
+	position: fixed;
+	margin-left: 0;
+	top: 380px; 
+	opacity: 0.4;
+}
+.fix:hover{
+	opacity: 1;
+}
+.button{
+	background-color: red;
+	color: black;
+	padding: 10px 15px;
+	border:none;
+}

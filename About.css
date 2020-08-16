@@ -1,0 +1,22 @@
+body{
+    padding:10px;
+    background-image: url("abstract.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: 10px;
+    box-shadow: black;
+    background-attachment: fixed;
+
+}
+p{
+    transform: translate(60%,-100%);
+    width: 40%;
+}
+.pos{
+    transform: translate(0%,-50%);
+    text-align: center;
+}
+pre{
+    font-family: algerian;
+    transform: translate(20%,-300%);
+}

@@ -1,0 +1,11 @@
+body{
+    background-image: url("images (7).jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.bgs{
+    transform: translate(.9%,250%);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}

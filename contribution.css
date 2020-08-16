@@ -1,0 +1,14 @@
+body{
+    background-image: url("business-1031754__340.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.c{
+    float: right;
+    width: 18%;
+    background-image: url("download (12).jpg");
+    background-attachment: fixed;
+    background-size: cover;
+   
+}

@@ -1,0 +1,12 @@
+body{
+    background-image: url("fruit-basket-1114060_960_720.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button:hover{
+    background-image: url("bananas-1119790__340.jpg");
+   
+
+}
